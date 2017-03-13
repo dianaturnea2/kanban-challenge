@@ -1,0 +1,23 @@
+{
+  "name": "kanban-challenge",
+  "version": "1.0.0",
+  "description": "Kanban Challenge - Diana &amp; Teo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dianaturnea2/kanban-challenge.git"
+  },
+  "author": "Diana & Teo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dianaturnea2/kanban-challenge/issues"
+  },
+  "homepage": "https://github.com/dianaturnea2/kanban-challenge#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
