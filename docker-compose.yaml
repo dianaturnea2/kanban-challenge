@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  kb-backend-service:
+    container_name: kb-backend-container
+    image: kb-backend-image
+    build: 
+      context: ./backend
+      dockerfile: ./Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./backend:/home/kanban
+    working_dir: /home/kanban
